@@ -27,4 +27,4 @@
 - With younger voter turnout fluctuating, it is important to gain younger voters when considering elections. Equipping younger voters with information on candidates and how their election may impact the voter in the future. 
 
 ## SCOPE
---18-29 year old voters are becoming increasingly lazy in researching politics. We want there to be a space where young adults can be informed in an unbiased view of politics and world events that are impacting the nation. 
+- 18-29 year old voters are becoming increasingly lazy in researching politics. We want there to be a space where young adults can be informed in an unbiased view of politics and world events that are impacting the nation. 
