@@ -5,7 +5,7 @@
 # PoliTech AI
 14th September 2024
 
-## Goals - 
+## Goals
 - We are addressing the challenges in young voter turnout. Democracy needs the votes of every person and one factor is the amount of time it takes to understand views. 
 
 ## External
