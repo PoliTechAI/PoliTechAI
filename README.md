@@ -1,8 +1,7 @@
 # PoliTech Non-Profit 
-- Politics made easy
-- Voter Turnout
-- Transparency
-# PoliTech AI
+- "Unbiased Insights, Informed Choices"
+- "Unbiased Insights, Informed Votes"
+- "Vote Smart, Shape Tomorrow"
 14th September 2024
 
 ## Goals
