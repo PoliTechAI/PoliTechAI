@@ -152,16 +152,25 @@ body {
 .debate-section img {
     width: 100%;
     display: block;
+    left: 200px;
 }
 
 .debate-text {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 120px;
+    left: 40%;
     background-color: rgba(0, 0, 0, 0.6);
     color: var(--white-color);
     padding: 15px 20px;
     font-size: 1.5em;
     font-weight: bold;
     border-radius: 5px;
+}
+
+.presidential-divider {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--hero-bg-color);
+    padding: 90px 20px;
+    color: var(--white-color);
 }
