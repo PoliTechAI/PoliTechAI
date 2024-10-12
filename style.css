@@ -1,3 +1,4 @@
+
 /* Base Colors */
 :root {
     --main-bg-color: #E5E5E5;
@@ -26,24 +27,30 @@ body {
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px 30px;
 }
 
 .logo {
-    font-size: 1.8em;
+    font-size: 1.4em;
     color: var(--nav-bg-color);
     font-weight: bold;
+    border:none; 
+    background-color:transparent; 
+    cursor:pointer; 
+    margin-left: 40px;  
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 60px;
 }
 
 .nav-links li {
-    font-size: 1.1em;
+    font-size: .9em;
+}
+
+.nav-content{
+    position: relative;
 }
 
 .nav-links a {
@@ -52,43 +59,72 @@ body {
     font-weight: bold;
 }
 
-.profile-picture img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid var(--nav-bg-color);
+.accountdetails{
+    list-style: none;
+    display: flex;
+    gap: 50px; 
+    position: relative;
+    left: 80px; 
 }
 
-/* Hero Section */
-.hero-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    background-color: var(--hero-bg-color);
-    color: var(--white-color);
+.login{
+    position:relative;
+    max-width: 200px; 
+    max-height: 100px;
+    text-decoration: none;
+    border:#0F62FE, solid, 2px; 
+    padding-top: 6px; 
+    padding-bottom: 6px; 
+    padding-left: 14px; 
+    padding-right: 14px; 
+    color: #0F62FE;
     text-align: center;
-    position: relative;
 }
+
+.signup{
+    text-decoration: none;
+    position:relative;
+    max-width: 200px; 
+    max-height: 100px;
+    text-decoration: none;
+    border:#0F62FE, solid, 2px; 
+    padding-top: 6px; 
+    padding-bottom: 6px; 
+    padding-left: 12px; 
+    padding-right: 12px; 
+    color: white;
+    background-color: #0F62FE;
+    text-align: center;
+    
+}
+/* Hero Section */
 
 .hero-section h1 {
     font-size: 3em;
     margin: 0;
 }
 
+.politechAi {
+    position: relative;
+    max-width: 100%;
+    max-height: 90%;
+}
 .chat-button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: var(--accent-color);
-    border: none;
+    border:none;
     color: var(--white-color);
     font-size: 1em;
     cursor: pointer;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
+    border-radius: 3px;
+    position:relative; 
+    left: 90%; 
+    bottom: 60px; 
+
+}
+.chat-button:hover{
+    background-color:#3A1D86;
 }
 
 /* Mission Statement */
@@ -156,9 +192,12 @@ body {
 }
 
 .debate-text {
-    position: absolute;
+    position: relative;
     bottom: 120px;
-    left: 40%;
+    text-align: center;
+    left: 35%;
+    top: 50px;
+    max-width: 400px;
     background-color: rgba(0, 0, 0, 0.6);
     color: var(--white-color);
     padding: 15px 20px;
@@ -173,4 +212,55 @@ body {
     background-color: var(--hero-bg-color);
     padding: 90px 20px;
     color: var(--white-color);
+}
+/* Keypoints  */
+.debate-keypoints{
+    padding: 40px;
+    text-align: center;
+    background-color: var(--white-color);
+    max-width: 900px;
+    max-height: 900px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary{
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    background-color: var(--white-color);
+    max-width: 900px;
+    margin: 40px auto;
+    border-radius: 10px;
+    right: 20px; 
+}
+
+.chat-buttondebate{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    border: none;
+    color: var(--white-color);
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chat-buttondebate:hover{
+    color:#3A1D86;
+}
+
+.disclaimer{
+    position: relative;
+    color:rgba(0, 0, 0, 0.4)
+}
+
+/* Candidates Page  */
+.candidates-introduction{
+    position: relative;
+    max-width: 700px;
 }
