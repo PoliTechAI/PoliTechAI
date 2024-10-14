@@ -1,4 +1,5 @@
 
+
 /* Base Colors */
 :root {
     --main-bg-color: #E5E5E5;
@@ -53,6 +54,10 @@ body {
     position: relative;
 }
 
+.nav-content{
+    position: relative;
+    padding-top: 25px; 
+}
 .nav-links a {
     color: var(--nav-bg-color);
     text-decoration: none;
@@ -113,6 +118,7 @@ body {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: var(--accent-color);
+    border:none;
     border:none;
     color: var(--white-color);
     font-size: 1em;
@@ -193,7 +199,12 @@ body {
 
 .debate-text {
     position: relative;
+    position: relative;
     bottom: 120px;
+    text-align: center;
+    left: 35%;
+    top: 50px;
+    max-width: 400px;
     text-align: center;
     left: 35%;
     top: 50px;
@@ -212,6 +223,57 @@ body {
     background-color: var(--hero-bg-color);
     padding: 90px 20px;
     color: var(--white-color);
+}
+/* Keypoints  */
+.debate-keypoints{
+    padding: 40px;
+    text-align: center;
+    background-color: var(--white-color);
+    max-width: 900px;
+    max-height: 900px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary{
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    background-color: var(--white-color);
+    max-width: 900px;
+    margin: 40px auto;
+    border-radius: 10px;
+    right: 20px; 
+}
+
+.chat-buttondebate{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    border: none;
+    color: var(--white-color);
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chat-buttondebate:hover{
+    color:#3A1D86;
+}
+
+.disclaimer{
+    position: relative;
+    color:rgba(0, 0, 0, 0.4)
+}
+
+/* Candidates Page  */
+.candidates-introduction{
+    position: relative;
+    max-width: 700px;
 }
 /* Keypoints  */
 .debate-keypoints{
