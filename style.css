@@ -216,12 +216,12 @@ body {
 .helene{
     position: relative;
     max-width: 250px;
-    max-height:300px; 
+    height:165px; 
 }
 .milton{
     position: relative;
     max-width: 250px;
-    max-height:300px; 
+    max-height: 165px; 
 }
 
 /* Boxes */
@@ -258,7 +258,38 @@ body {
     left: 200px; 
     padding:20px;
 }
+/* Broad or Specific Information */
 
+.demo-pt-one{
+    background-color: white;
+    width:100%; 
+    height: 560px; 
+    position: relative;
+    bottom: 100px; 
+}
+
+.demo-text{
+    margin: 100px;
+    padding-top: 150px; 
+    width: 550px; 
+    line-height: 1.5em;
+}
+
+.demo-pt-two{
+    background-color: white;
+    width:100%; 
+    height: 560px; 
+    position: relative;
+    bottom: 100px; 
+}
+.demo-text-two{
+    left: 53%;
+    position: relative;
+    padding-top: 150px; 
+    width: 550px; 
+    line-height: 1.5em;
+    text-align: right;
+}
 /* Debate Section */
 .debate-section {
     position: relative;
@@ -292,13 +323,6 @@ body {
     border-radius: 5px;
 }
 
-.presidential-divider {
-    display: flex;
-    justify-content: space-around;
-    background-color: var(--hero-bg-color);
-    padding: 90px 20px;
-    color: var(--white-color);
-}
 /* Keypoints  */
 .debate-keypoints{
     padding: 40px;
