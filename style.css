@@ -134,6 +134,7 @@ body {
     border-radius: 3px;
     position:relative; 
     letter-spacing: .1em;
+    text-decoration: none;
 }
 
 .chat-button:hover{
@@ -436,8 +437,6 @@ body {
 }
 
 
-
-
 /* Candidates Page  */
 .candidates-introduction{
     position: relative;
@@ -576,3 +575,34 @@ body {
     bottom: 50px; 
 }
 
+/* Sign Up page  */
+.name-signup{
+    display: flex; 
+    margin-left: 10%; 
+    gap:33.5%; 
+    position: relative;
+}
+.sign-in-input{
+    display: flex;
+    position: relative;
+}
+.first-name-input{
+    position: relative;
+    width: 250px; 
+    height: 30px; 
+    margin-left: 10%;
+    background-color: rgba(207, 201, 201, 0.712);
+    border: none; 
+    box-sizing: border-box;
+    border-bottom:rgb(99, 98, 98);
+}
+.last-name-input{
+    position: relative;
+    width: 250px; 
+    height: 30px; 
+    left: 20px; 
+    background-color: rgba(207, 201, 201, 0.712);
+    border: none; 
+    box-sizing: border-box;
+    border-bottom:rgb(99, 98, 98);
+}
