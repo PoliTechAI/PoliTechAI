@@ -576,16 +576,19 @@ body {
 }
 
 /* Sign Up page  */
+
 .name-signup{
     display: flex; 
     margin-left: 10%; 
     gap:33.5%; 
     position: relative;
 }
+
 .sign-in-input{
     display: flex;
     position: relative;
 }
+
 .first-name-input{
     position: relative;
     width: 250px; 
@@ -596,6 +599,7 @@ body {
     box-sizing: border-box;
     border-bottom:rgb(99, 98, 98);
 }
+
 .last-name-input{
     position: relative;
     width: 250px; 
@@ -605,4 +609,15 @@ body {
     border: none; 
     box-sizing: border-box;
     border-bottom:rgb(99, 98, 98);
+}
+
+/* Current News  */
+.Currentnews{
+    background-color: white;
+}
+
+.trending-now{
+    position: relative; 
+    margin-left: 44%; 
+
 }
